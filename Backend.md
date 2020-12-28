@@ -1,4 +1,6 @@
 # bodyParser
+###### request.body에 있는 데이터에 접근하기 위해 사용한다.
+## bodyParser.json()
 ###### application/json 방식의 content-type 데이터를 받아준다.
 ## bodyParser.text()
 ###### 'text/xml' 방식의 content-type 데이터를 받아준다
