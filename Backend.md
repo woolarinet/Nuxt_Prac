@@ -13,3 +13,9 @@
 ###### depth를 나눠주며 최대 5depth 까지 가능하다.
 ### false : querystring library
 ###### depth값을 키값에 모두 포함한다.
+
+# ORM
+###### Object Relational Mapping (객체-관계 맵핑)
+###### 객체지향에서 class가 있듯이, 관계형DB에는 Table이라는 개념이 있다.
+###### DMBS 앞단에서 기능하는 새로운 개념
+###### 
