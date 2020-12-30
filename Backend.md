@@ -57,7 +57,7 @@
 ## axios
 ###### Vue에서 권고하는 Promise 기반의 API
 
-# REFERENECES
+# REFERENCES
 ###### https://poiemaweb.com/es6-promise
 ###### https://coding-factory.tistory.com/143?category=785989
 
