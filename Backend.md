@@ -1,4 +1,4 @@
-# bodyParser
+# 1.bodyParser
 ###### request.body에 있는 데이터에 접근하기 위해 사용한다.
 ## bodyParser.json()
 ###### application/json 방식의 content-type 데이터를 받아준다.
@@ -14,13 +14,13 @@
 ### false : querystring library
 ###### depth값을 키값에 모두 포함한다.
 
-# ORM
+# 2.ORM
 ###### Object Relational Mapping (객체-관계 맵핑)
 ###### 객체지향에서 class가 있듯이, 관계형DB에는 Table이라는 개념이 있다.
 ###### DMBS 앞단에서 기능하는 새로운 개념
 ###### 이번 프로젝트에서는 sequelize를 통해 MySQL 제어
 
-# Ajax
+# 3.Ajax
 ###### JavaScript의 라이브러리 중 하나.
 ###### Asynchronous Javascript And Xml의 약자로 브라우저가 갖고 있는 XMLHttpRequest 객체를 이용
 ###### 전체 페이지를 새로 고치지 않고 일부만을 위한 데이터를 로드하는 기법이다.
@@ -56,6 +56,17 @@
 
 ## axios
 ###### Vue에서 권고하는 Promise 기반의 API
+
+# 4.서버 인증
+## 4-1.Session/Cookie
+###### 로그인 -> 서버에서 사용자확인 -> 사용자ID 세션저장소에 저장 -> 세션ID 발행 후 응답
+###### -> 사용자가 쿠키에 저장 -> 인증이 필요한 요청마다 쿠키를 헤더에 실어 요청 -> 서버에서 대응하는 정보 정보획득 후 전송
+### 장점
+###### 인증의 책임을 서버가 지게하여 보안강화. 통신 도중 http요청이 노출되도 쿠키의 값은 무의미
+### 단점
+###### 하지만 해커가 쿠키를 이용해 http요청을 보내면 세션에서는 사용자라고 오인
+###### (https를 사용하여 정보를 암호화 or 세션에 유효시간을 넣어 해결 가능)
+## 4-2.토큰(JWT)
 
 # REFERENCES
 ###### https://poiemaweb.com/es6-promise
