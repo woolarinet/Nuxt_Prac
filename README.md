@@ -1,3 +1,20 @@
-# nuxt-express
-##### 프로젝트를 진행하며 개념들을 정리하는 repository
-##### 프로젝트는 Private로 진행하며, 실제 운영할 쇼핑몰을 구현중
+# shsp
+
+## Build Setup
+
+```bash
+# install dependencies
+$ npm install
+
+# serve with hot reload at localhost:3000
+$ npm run dev
+
+# build for production and launch server
+$ npm run build
+$ npm run start
+
+# generate static project
+$ npm run generate
+```
+
+For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).
